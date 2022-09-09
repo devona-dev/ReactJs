@@ -1,0 +1,18 @@
+GET  http://localhost:3001/todos
+
+###
+
+POST http://localhost:3001/todo/new
+Content-Type: application/json
+
+{
+    "text": "NON Olish"
+}
+
+###
+
+DELETE http://localhost:3001/todo/delete/63196914233e12cd9b758bc2
+
+###
+ 
+PUT http://localhost:3001/todo/complete/63196974233e12cd9b758bc5
